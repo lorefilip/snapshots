@@ -1,0 +1,150 @@
+body {
+font-family: 'Lato', sans serif;
+background-color: #00b7c2;
+color: white;
+}
+
+h1 {
+font-family: 'Dancing Script', cursive;
+font-weight: bold;
+padding-bottom: 5%;
+font-size: 3rem;
+}
+
+h4 {
+display: inline;
+font-family: 'Dancing Script';
+font-size: 2rem;
+}
+
+p {
+margin-bottom: 3rem;
+line-height: 2;
+}
+
+/* Navigation Bar */
+
+.navbar {
+padding: 2% 12%;
+}
+
+.navbar-brand {
+font-family: Dancing Script;
+font-size: 2.5rem;
+}
+
+.nav-item {
+padding: 0 18px;
+}
+
+.nav-link {
+font-size: 1.2rem;
+}
+
+
+/* Sections */
+
+.text-section {
+padding: 10% 15%;
+}
+
+.gallery-section {
+background-color: #128494;
+}
+
+.row {
+margin: 0;
+}
+
+
+/* About Section */
+
+.sub-title {
+font-size: 1.2rem;
+}
+
+.link {
+color: white;
+}
+
+.link:hover {
+color: #ecfeff;
+}
+
+.icon {
+text-align: center;
+padding-bottom: 5%;
+}
+
+.fas {
+padding: 8px;
+}
+
+.fas:hover {
+color: #ffd700;
+}
+
+
+/* Gallery Sections */
+
+.zoom {
+border-radius:5px;
+transition: transform .3s ease-in-out;
+}
+
+.zoom:hover{
+  transform: scale(1.1);
+}
+
+.thumb {
+margin: 5% 0 2% 0;
+}
+
+
+/* Picture Breaks */
+
+.mid-picture {
+padding: 0;
+}
+
+.text-overlay {
+font-family: 'Dancing Script';
+font-size: 40px;
+position: absolute;
+top: 10%;
+left: 10%;
+}
+
+#city-title {
+color: black;
+font-weight: bold;
+}
+
+
+/* Call to action */
+
+.cta {
+padding: 5%;
+text-align: center;
+background-image: linear-gradient(#128494, #00b7c2, #ecfeff);
+border-radius: 10px;
+}
+
+
+/* Footer */
+
+#footer {
+background-color: white;
+color: black;
+text-align: center;
+}
+
+#copy {
+margin-bottom: 0;
+font-size: 0.8rem;
+padding-bottom: 2%;
+}
+
+.social-icon {
+padding: 2%;
+}
